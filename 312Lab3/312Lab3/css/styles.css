@@ -1,0 +1,83 @@
+/* =============================================
+   FutureTech - Custom Stylesheet (styles.css)
+   IS312 Web Application Development - Lab 3
+   ============================================= */
+
+/* === Custom Style 1: Jumbotron Hero Section === */
+.jumbotron-custom {
+  background: linear-gradient(135deg, #0d1b2a, #1b4f72);
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+}
+
+/* === Custom Style 2: Page Header for Inner Pages === */
+.page-header {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+}
+
+/* === Custom Style 3: Icon Box for Home Grid Cards === */
+.icon-box {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+/* === Custom Style 4: Card Hover Effect === */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* === Custom Style 5: Avatar Placeholder === */
+.avatar-placeholder {
+  font-size: 4rem;
+  width: 80px;
+  height: 80px;
+  background-color: #e9ecef;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* === Custom Style 6: Info Box === */
+.info-box {
+  background-color: #f8f9fa;
+  border-left: 4px solid #0d6efd;
+  transition: background-color 0.3s;
+}
+
+.info-box:hover {
+  background-color: #e7f1ff;
+}
+
+/* === Custom Style 7: Navbar Brand Styling === */
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #ffffff !important;
+}
+
+/* === Custom Style 8: Body Background === */
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+}
+
+/* === Custom Style 9: Section Headings === */
+h2.section-title {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #0d6efd;
+  display: inline-block;
+  padding-bottom: 6px;
+}
